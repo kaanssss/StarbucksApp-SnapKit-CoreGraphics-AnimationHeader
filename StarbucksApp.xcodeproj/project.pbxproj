@@ -146,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				DFD8294E28C8DD930083D4EF /* Home */,
+				DF0561FC2922696700FCA0E8 /* StarRewards */,
+				DF990FF628E4952500DA053E /* Rewards */,
 				DF70BF272934F1A00020BA74 /* HistoryTile */,
 				DFD8294D28C8DD8A0083D4EF /* Files */,
 				DFC1C1B128C8BF9E007453B5 /* Assets.xcassets */,
@@ -167,8 +169,6 @@
 		DFD8294E28C8DD930083D4EF /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				DF0561FC2922696700FCA0E8 /* StarRewards */,
-				DF990FF628E4952500DA053E /* Rewards */,
 				DFC1C1AC28C8BF9D007453B5 /* HomeViewController.swift */,
 				DFD8294F28C8DEF10083D4EF /* HomeHeaderView.swift */,
 				DFD8295128C8EAE80083D4EF /* HomeViewControllerDS.swift */,
