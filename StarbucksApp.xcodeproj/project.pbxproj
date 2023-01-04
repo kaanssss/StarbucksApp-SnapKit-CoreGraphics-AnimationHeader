@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		787607C29A0910D8CB5B3857 /* Pods_StarbucksApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C8C8A792EFC5202E3C51A1 /* Pods_StarbucksApp.framework */; };
+		DF0561FE2922699600FCA0E8 /* StarAndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0561FD2922699600FCA0E8 /* StarAndPoints.swift */; };
+		DF05620029226F7600FCA0E8 /* StarRewardsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0561FF29226F7600FCA0E8 /* StarRewardsRow.swift */; };
+		DF0562022922768E00FCA0E8 /* StarRewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0562012922768E00FCA0E8 /* StarRewardsView.swift */; };
+		DF14ED0429436FFB009F5BD4 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14ED0329436FFA009F5BD4 /* HistoryModel.swift */; };
+		DF3BEE1F28DB53EF004E174E /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BEE1E28DB53EF004E174E /* PlaceholderViewController.swift */; };
+		DF62EF6728EDB184006D9C6A /* RewardsGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF62EF6628EDB184006D9C6A /* RewardsGraphView.swift */; };
+		DF6661C22940D28E00D24043 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6661C12940D28E00D24043 /* HistoryViewModel.swift */; };
+		DF67C7AB28E331EB00AA7460 /* TileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67C7AA28E331EB00AA7460 /* TileViewController.swift */; };
+		DF67C7AD28E3328900AA7460 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67C7AC28E3328900AA7460 /* TileView.swift */; };
+		DF70BF292934F1D70020BA74 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70BF282934F1D70020BA74 /* HistoryViewController.swift */; };
+		DF990FF828E4954A00DA053E /* RewardsTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF990FF728E4954A00DA053E /* RewardsTileView.swift */; };
+		DF990FFA28E495BC00DA053E /* RewardsTileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF990FF928E495BC00DA053E /* RewardsTileViewController.swift */; };
+		DF990FFC28E4999500DA053E /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF990FFB28E4999500DA053E /* BalanceView.swift */; };
+		DF9D70B42936269200793AF3 /* HistoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D70B32936269200793AF3 /* HistoryViewCell.swift */; };
+		DF9D70B62936373500793AF3 /* HistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D70B52936373500793AF3 /* HistoryService.swift */; };
 		DFC1C1A928C8BF9D007453B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC1C1A828C8BF9D007453B5 /* AppDelegate.swift */; };
-		DFC1C1AB28C8BF9D007453B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC1C1AA28C8BF9D007453B5 /* SceneDelegate.swift */; };
-		DFC1C1AD28C8BF9D007453B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC1C1AC28C8BF9D007453B5 /* ViewController.swift */; };
-		DFC1C1B028C8BF9D007453B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC1C1AE28C8BF9D007453B5 /* Main.storyboard */; };
+		DFC1C1AD28C8BF9D007453B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC1C1AC28C8BF9D007453B5 /* HomeViewController.swift */; };
 		DFC1C1B228C8BF9E007453B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC1C1B128C8BF9E007453B5 /* Assets.xcassets */; };
 		DFC1C1B528C8BF9E007453B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC1C1B328C8BF9E007453B5 /* LaunchScreen.storyboard */; };
+		DFD8294C28C8DB1A0083D4EF /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD8294B28C8DB1A0083D4EF /* Factories.swift */; };
+		DFD8295028C8DEF10083D4EF /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD8294F28C8DEF10083D4EF /* HomeHeaderView.swift */; };
+		DFD8295228C8EAE80083D4EF /* HomeViewControllerDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD8295128C8EAE80083D4EF /* HomeViewControllerDS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17D5D7D83DF50FEB4E2C1EE6 /* Pods-StarbucksApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarbucksApp.debug.xcconfig"; path = "Target Support Files/Pods-StarbucksApp/Pods-StarbucksApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5D3D449E153DA6315B7D0C96 /* Pods-StarbucksApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarbucksApp.release.xcconfig"; path = "Target Support Files/Pods-StarbucksApp/Pods-StarbucksApp.release.xcconfig"; sourceTree = "<group>"; };
+		68C8C8A792EFC5202E3C51A1 /* Pods_StarbucksApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarbucksApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0561FD2922699600FCA0E8 /* StarAndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarAndPoints.swift; sourceTree = "<group>"; };
+		DF0561FF29226F7600FCA0E8 /* StarRewardsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRewardsRow.swift; sourceTree = "<group>"; };
+		DF0562012922768E00FCA0E8 /* StarRewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRewardsView.swift; sourceTree = "<group>"; };
+		DF14ED0329436FFA009F5BD4 /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		DF3BEE1E28DB53EF004E174E /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
+		DF62EF6628EDB184006D9C6A /* RewardsGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsGraphView.swift; sourceTree = "<group>"; };
+		DF6661C12940D28E00D24043 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		DF67C7AA28E331EB00AA7460 /* TileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileViewController.swift; sourceTree = "<group>"; };
+		DF67C7AC28E3328900AA7460 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		DF70BF282934F1D70020BA74 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		DF990FF728E4954A00DA053E /* RewardsTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsTileView.swift; sourceTree = "<group>"; };
+		DF990FF928E495BC00DA053E /* RewardsTileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsTileViewController.swift; sourceTree = "<group>"; };
+		DF990FFB28E4999500DA053E /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		DF9D70B32936269200793AF3 /* HistoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewCell.swift; sourceTree = "<group>"; };
+		DF9D70B52936373500793AF3 /* HistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryService.swift; sourceTree = "<group>"; };
 		DFC1C1A528C8BF9D007453B5 /* StarbucksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC1C1A828C8BF9D007453B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFC1C1AA28C8BF9D007453B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DFC1C1AC28C8BF9D007453B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DFC1C1AF28C8BF9D007453B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFC1C1AC28C8BF9D007453B5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DFC1C1B128C8BF9E007453B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFC1C1B428C8BF9E007453B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFC1C1B628C8BF9E007453B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD8294B28C8DB1A0083D4EF /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
+		DFD8294F28C8DEF10083D4EF /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		DFD8295128C8EAE80083D4EF /* HomeViewControllerDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerDS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787607C29A0910D8CB5B3857 /* Pods_StarbucksApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7625CFD76A6600A998884BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68C8C8A792EFC5202E3C51A1 /* Pods_StarbucksApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9E5661A7FA38A5A1E951455 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D5D7D83DF50FEB4E2C1EE6 /* Pods-StarbucksApp.debug.xcconfig */,
+				5D3D449E153DA6315B7D0C96 /* Pods-StarbucksApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF0561FC2922696700FCA0E8 /* StarRewards */ = {
+			isa = PBXGroup;
+			children = (
+				DF0561FD2922699600FCA0E8 /* StarAndPoints.swift */,
+				DF0561FF29226F7600FCA0E8 /* StarRewardsRow.swift */,
+				DF0562012922768E00FCA0E8 /* StarRewardsView.swift */,
+			);
+			path = StarRewards;
+			sourceTree = "<group>";
+		};
+		DF70BF272934F1A00020BA74 /* HistoryTile */ = {
+			isa = PBXGroup;
+			children = (
+				DF70BF282934F1D70020BA74 /* HistoryViewController.swift */,
+				DF9D70B32936269200793AF3 /* HistoryViewCell.swift */,
+				DF9D70B52936373500793AF3 /* HistoryService.swift */,
+				DF6661C12940D28E00D24043 /* HistoryViewModel.swift */,
+				DF14ED0329436FFA009F5BD4 /* HistoryModel.swift */,
+			);
+			path = HistoryTile;
+			sourceTree = "<group>";
+		};
+		DF990FF628E4952500DA053E /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				DF990FF728E4954A00DA053E /* RewardsTileView.swift */,
+				DF990FF928E495BC00DA053E /* RewardsTileViewController.swift */,
+				DF990FFB28E4999500DA053E /* BalanceView.swift */,
+				DF62EF6628EDB184006D9C6A /* RewardsGraphView.swift */,
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
 		DFC1C19C28C8BF9D007453B5 = {
 			isa = PBXGroup;
 			children = (
 				DFC1C1A728C8BF9D007453B5 /* StarbucksApp */,
 				DFC1C1A628C8BF9D007453B5 /* Products */,
+				B9E5661A7FA38A5A1E951455 /* Pods */,
+				7625CFD76A6600A998884BAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +145,38 @@
 		DFC1C1A728C8BF9D007453B5 /* StarbucksApp */ = {
 			isa = PBXGroup;
 			children = (
-				DFC1C1A828C8BF9D007453B5 /* AppDelegate.swift */,
-				DFC1C1AA28C8BF9D007453B5 /* SceneDelegate.swift */,
-				DFC1C1AC28C8BF9D007453B5 /* ViewController.swift */,
-				DFC1C1AE28C8BF9D007453B5 /* Main.storyboard */,
+				DFD8294E28C8DD930083D4EF /* Home */,
+				DF70BF272934F1A00020BA74 /* HistoryTile */,
+				DFD8294D28C8DD8A0083D4EF /* Files */,
 				DFC1C1B128C8BF9E007453B5 /* Assets.xcassets */,
 				DFC1C1B328C8BF9E007453B5 /* LaunchScreen.storyboard */,
 				DFC1C1B628C8BF9E007453B5 /* Info.plist */,
 			);
 			path = StarbucksApp;
+			sourceTree = "<group>";
+		};
+		DFD8294D28C8DD8A0083D4EF /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFC1C1A828C8BF9D007453B5 /* AppDelegate.swift */,
+				DFD8294B28C8DB1A0083D4EF /* Factories.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		DFD8294E28C8DD930083D4EF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DF0561FC2922696700FCA0E8 /* StarRewards */,
+				DF990FF628E4952500DA053E /* Rewards */,
+				DFC1C1AC28C8BF9D007453B5 /* HomeViewController.swift */,
+				DFD8294F28C8DEF10083D4EF /* HomeHeaderView.swift */,
+				DFD8295128C8EAE80083D4EF /* HomeViewControllerDS.swift */,
+				DF3BEE1E28DB53EF004E174E /* PlaceholderViewController.swift */,
+				DF67C7AA28E331EB00AA7460 /* TileViewController.swift */,
+				DF67C7AC28E3328900AA7460 /* TileView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFC1C1B928C8BF9E007453B5 /* Build configuration list for PBXNativeTarget "StarbucksApp" */;
 			buildPhases = (
+				6777369A02AB64A3AB72E5F8 /* [CP] Check Pods Manifest.lock */,
 				DFC1C1A128C8BF9D007453B5 /* Sources */,
 				DFC1C1A228C8BF9D007453B5 /* Frameworks */,
 				DFC1C1A328C8BF9D007453B5 /* Resources */,
+				189400626E71D42F13304F38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +241,84 @@
 			files = (
 				DFC1C1B528C8BF9E007453B5 /* LaunchScreen.storyboard in Resources */,
 				DFC1C1B228C8BF9E007453B5 /* Assets.xcassets in Resources */,
-				DFC1C1B028C8BF9D007453B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		189400626E71D42F13304F38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarbucksApp/Pods-StarbucksApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarbucksApp/Pods-StarbucksApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarbucksApp/Pods-StarbucksApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6777369A02AB64A3AB72E5F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarbucksApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DFC1C1A128C8BF9D007453B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFC1C1AD28C8BF9D007453B5 /* ViewController.swift in Sources */,
+				DFD8295028C8DEF10083D4EF /* HomeHeaderView.swift in Sources */,
+				DF990FF828E4954A00DA053E /* RewardsTileView.swift in Sources */,
+				DF62EF6728EDB184006D9C6A /* RewardsGraphView.swift in Sources */,
+				DF990FFC28E4999500DA053E /* BalanceView.swift in Sources */,
+				DFD8294C28C8DB1A0083D4EF /* Factories.swift in Sources */,
+				DF6661C22940D28E00D24043 /* HistoryViewModel.swift in Sources */,
+				DF05620029226F7600FCA0E8 /* StarRewardsRow.swift in Sources */,
+				DF67C7AD28E3328900AA7460 /* TileView.swift in Sources */,
+				DF70BF292934F1D70020BA74 /* HistoryViewController.swift in Sources */,
+				DF0561FE2922699600FCA0E8 /* StarAndPoints.swift in Sources */,
+				DFC1C1AD28C8BF9D007453B5 /* HomeViewController.swift in Sources */,
+				DF9D70B62936373500793AF3 /* HistoryService.swift in Sources */,
+				DF990FFA28E495BC00DA053E /* RewardsTileViewController.swift in Sources */,
+				DF67C7AB28E331EB00AA7460 /* TileViewController.swift in Sources */,
 				DFC1C1A928C8BF9D007453B5 /* AppDelegate.swift in Sources */,
-				DFC1C1AB28C8BF9D007453B5 /* SceneDelegate.swift in Sources */,
+				DF0562022922768E00FCA0E8 /* StarRewardsView.swift in Sources */,
+				DF14ED0429436FFB009F5BD4 /* HistoryModel.swift in Sources */,
+				DF3BEE1F28DB53EF004E174E /* PlaceholderViewController.swift in Sources */,
+				DFD8295228C8EAE80083D4EF /* HomeViewControllerDS.swift in Sources */,
+				DF9D70B42936269200793AF3 /* HistoryViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DFC1C1AE28C8BF9D007453B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFC1C1AF28C8BF9D007453B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DFC1C1B328C8BF9E007453B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +446,7 @@
 		};
 		DFC1C1BA28C8BF9E007453B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D5D7D83DF50FEB4E2C1EE6 /* Pods-StarbucksApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +457,6 @@
 				INFOPLIST_FILE = StarbucksApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +474,7 @@
 		};
 		DFC1C1BB28C8BF9E007453B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3D449E153DA6315B7D0C96 /* Pods-StarbucksApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +485,6 @@
 				INFOPLIST_FILE = StarbucksApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
